@@ -1,0 +1,28 @@
+# Robots.txt for Academy Sports + Outdoors - Buying Guide
+User-agent: *
+Allow: /
+
+# Directives for AI Engine Crawlers
+User-agent: GPTBot
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+User-agent: ClaudeBot
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+User-agent: PerplexityBot
+Allow: /
+Allow: /llms.txt
+Allow: /llms-full.txt
+
+User-agent: Google-Extended
+Allow: /
+Allow: /llms.txt
+
+# LLM Specification Map
+# See https://llmstxt.org
+llms-txt: https://www.academy.com/llms.txt
+llms-full-txt: https://www.academy.com/llms-full.txt
